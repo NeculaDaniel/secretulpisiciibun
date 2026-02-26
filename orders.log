@@ -1,0 +1,8 @@
+[2026-02-16 21:33:50] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:34:00] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:34:04] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:34:11] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:34:27] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:34:45] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:36:37] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'
+[2026-02-16 21:37:00] [INSERT_ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'postal_code' in 'INSERT INTO'

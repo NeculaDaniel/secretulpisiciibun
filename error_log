@@ -1,0 +1,16 @@
+[16-Feb-2026 21:29:04 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:30:11 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:33:50 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:34:00 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:34:04 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:34:11 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:34:27 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:34:45 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:36:37 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:37:00 UTC] CRITICAL: Folderul PHPMailer-master nu a fost gasit!
+[16-Feb-2026 21:41:09 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:42:08 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:57:28 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:57:31 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:57:37 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
+[16-Feb-2026 21:58:53 UTC] PHP Fatal error:  Cannot redeclare logEvent() (previously declared in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/order-api.php:64) in /var/www/22b4e3e9-de78-418c-a991-dee0eb35864e/secretulpisicii.alvoro.ro/config.php on line 96
