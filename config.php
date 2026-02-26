@@ -55,7 +55,14 @@ define('ECOLET_CLIENT_ID', getenv('ECOLET_CLIENT_ID'));
 define('ECOLET_CLIENT_SECRET', getenv('ECOLET_CLIENT_SECRET'));
 define('ECOLET_USERNAME', getenv('ECOLET_USERNAME'));
 define('ECOLET_PASSWORD', getenv('ECOLET_PASSWORD'));
-define('ECOLET_SENDER_NAME', 'Secretul Pisicii');
+
+// SENDER INFO (Datele tale de expediere - CRITICE PENTRU AWB)
+define('ECOLET_SENDER_NAME', getenv('ECOLET_SENDER_NAME') ?: 'Secretul Pisicii');
+define('ECOLET_SENDER_COUNTY', getenv('ECOLET_SENDER_COUNTY'));
+define('ECOLET_SENDER_CITY', getenv('ECOLET_SENDER_CITY'));
+define('ECOLET_SENDER_STREET', getenv('ECOLET_SENDER_STREET'));
+define('ECOLET_SENDER_POSTAL', getenv('ECOLET_SENDER_POSTAL'));
+define('ECOLET_SENDER_LOCALITY_ID', getenv('ECOLET_SENDER_LOCALITY_ID')); 
 
 // === NETOPIA (Plati Card) ===
 define('NETOPIA_MERCHANT_ID', getenv('NETOPIA_MERCHANT_ID'));
@@ -81,7 +88,7 @@ define('EASYBOX_API_URL', EASYBOX_SANDBOX
 // === SHIPPING COSTS ===
 define('SHIPPING_COST_GLS', floatval(getenv('SHIPPING_COST_GLS') ?: 14.00));
 define('SHIPPING_COST_EASYBOX', floatval(getenv('SHIPPING_COST_EASYBOX') ?: 10.00));
-define('SHIPPING_COST', SHIPPING_COST_GLS); // Default pentru backward compatibility
+define('SHIPPING_COST', SHIPPING_COST_GLS); // Default pentru compatibilitate
 
 // === ADMIN ===
 define('ADMIN_USER', getenv('ADMIN_USER') ?: 'admin');
@@ -94,12 +101,14 @@ define('LOG_ORDERS', __DIR__ . '/logs/orders.log');
 define('LOG_PAYMENTS', __DIR__ . '/logs/payments.log');
 define('LOG_ERRORS', __DIR__ . '/logs/errors.log');
 
-// Helper function pentru logging - RENAMED TO AVOID CONFLICT
-function systemLog($file, $message) {
-    $dir = dirname($file);
-    if (!is_dir($dir)) @mkdir($dir, 0755, true);
-    $timestamp = date('Y-m-d H:i:s');
-    $line = "[$timestamp] $message" . PHP_EOL;
-    @file_put_contents($file, $line, FILE_APPEND);
+// Helper function pentru logging
+if (!function_exists('systemLog')) {
+    function systemLog($file, $message) {
+        $dir = dirname($file);
+        if (!is_dir($dir)) @mkdir($dir, 0755, true);
+        $timestamp = date('Y-m-d H:i:s');
+        $line = "[$timestamp] $message" . PHP_EOL;
+        @file_put_contents($file, $line, FILE_APPEND);
+    }
 }
 ?>
